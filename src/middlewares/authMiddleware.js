@@ -35,35 +35,6 @@ const authorizeRole = (allowedRoles) => (req, res, next) => {
     }
   });
 };
-const deleteRoles = async (req, res, next) => {
-  try {
-    await authenticate(req, res);
-
-    const { id } = req.params;
-    const { role } = req.user;
-
-    const user = await User.findById(id);
-    if (!user) {
-      return res.status(404).json({ message: 'User not found' });
-    }
-
-    if (role.includes('Admin')) {
-      if (user.role.includes('Admin') || user.role.includes('Manager')) {
-        return res.status(403).json({ message: 'Admins cannot delete other admins or managers' });
-      } else {
-        req.userToDelete = user;
-        next();
-      }
-    } else if (role.includes('Manager') && (user.role.includes('Admin') || user.role.includes('Employee'))) {
-      req.userToDelete = user;
-      next();
-    } else {
-      return res.status(403).json({ message: 'Forbidden' });
-    }
-  } catch (error) {
-    return res.status(500).json({ message: 'Internal server error' });
-  }
-};
 
 
 module.exports = {
@@ -71,5 +42,4 @@ module.exports = {
   authorizeAdmin: authorizeRole(["Admin"]),
   authorizeManager: authorizeRole(["Manager"]),
   authorizeAdminAndManager: authorizeRole(["Admin", "Manager"]),
-  deleteRoles
 };
