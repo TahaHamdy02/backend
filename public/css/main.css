@@ -1,0 +1,32 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dcca87;
+}
+
+::-webkit-scrollbar-track {
+    background: #242424;
+}
+
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

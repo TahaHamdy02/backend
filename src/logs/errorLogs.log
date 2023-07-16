@@ -1,0 +1,106 @@
+2023-06-26 17:17:36 f298eac3-c36f-4259-b19b-4f50457ad901 Error: all is done man GET /test-error-middleware
+
+2023-06-26 17:17:52 370e47f8-3173-4425-9b6f-a5279eb92206 Error: all is done man GET /test-error-middleware
+
+2023-06-26 20:16:24 bfb26d11-f383-4db7-b7f8-9d4529c8ac1f ReferenceError: C:\Users\Taha\Desktop\final-task\src\views\login.ejs:7
+    5|   </head>
+    6|   <body>
+ >> 7|     <% if (error) { %>
+    8|       <p style="color: red;"><%= error %></p>
+    9|     <% } %>
+    10|     <form method="post" action="/login">
+
+error is not defined GET /login
+
+2023-06-26 20:17:20 651c6369-4145-4a0e-b40a-c83b07188363 ReferenceError: C:\Users\Taha\Desktop\final-task\src\views\login.ejs:7
+    5|   </head>
+    6|   <body>
+ >> 7|     <% if (error) { %>
+    8|       <p style="color: red;"><%= error %></p>
+    9|     <% } %>
+    10|     <form method="post" action="/login">
+
+error is not defined GET /login
+
+2023-06-26 20:19:18 089c1418-5bd9-4474-8d77-d00d3c85f14c ReferenceError: C:\Users\Taha\Desktop\final-task\src\views\login.ejs:7
+    5|   </head>
+    6|   <body>
+ >> 7|     <% if (error) { %>
+    8|       <p style="color: red;"><%= error %></p>
+    9|     <% } %>
+    10|     <form method="post" action="/login">
+
+error is not defined GET /login
+
+2023-06-26 20:21:06 ddec76a2-37d0-495b-9a42-a70b805e5d9f ReferenceError: C:\Users\Taha\Desktop\final-task\src\views\login.ejs:7
+    5|   </head>
+    6|   <body>
+ >> 7|     <!-- <% if (error) { %>
+    8|       <p style="color: red;"><%= error %></p>
+    9|     <% } %> -->
+    10|     <form method="post" action="/login">
+
+error is not defined GET /login
+
+2023-06-26 20:22:04 9e535e83-84ff-4440-9fe2-db0eaa9420a3 ReferenceError: C:\Users\Taha\Desktop\final-task\src\views\login.ejs:7
+    5|   </head>
+    6|   <body>
+ >> 7|     <!-- <% if (error) { %>
+    8|       <p style="color: red;"><%= error %></p>
+    9|     <% } %> -->
+    10|     <form method="post" action="/login">
+
+error is not defined GET /login
+
+2023-06-26 20:29:49 c58481ce-3c31-4a0a-9aff-8f2625c13e02 Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client GET /protected
+
+2023-06-26 20:31:57 5fc49e31-f098-4d73-b726-402165815bb0 Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client GET /protected?email=tahahamdy%40gmail.com&password=dsagdfgfdagdf%40E1
+
+2023-06-30 21:46:56 997fe620-286a-440e-8d88-852f0a96c428 Error: Not allowed by CORS GET /auth/login
+
+2023-06-30 21:47:01 7b6360c0-53b7-419c-9295-f695fda0ae1e Error: Not allowed by CORS GET /auth/login
+
+2023-06-30 21:48:27 d143fc75-b617-4465-afb3-15589f884a2b Error: Not allowed by CORS GET /auth/login
+
+2023-06-30 21:48:42 f73c22c8-03cf-4776-9bfe-deddce2a8e4e Error: Not allowed by CORS GET /
+
+2023-06-30 21:59:47 59029389-5545-4ab0-aac3-797affeca764 Error: Not allowed by CORS GET /
+
+2023-06-30 22:07:17 73637204-e0b1-4722-9af2-637d8a018475 ReferenceError: whitelist is not defined GET /
+
+2023-06-30 22:07:42 9013a16d-048c-4348-b408-26cfcf8c8ad6 ReferenceError: whitelist is not defined GET /
+
+2023-06-30 22:16:23 447eafee-3577-4f37-a6e5-18a6d02fab9f ReferenceError: whitelist is not defined GET /auth/login
+
+2023-06-30 22:17:51 7a2f4490-23a9-4ef9-8d86-3a90a89ed325 ReferenceError: whitelist is not defined GET /
+
+2023-06-30 22:22:24 b584612a-c2bd-40bc-9d7d-d68fda60bd6d ReferenceError: whitelist is not defined GET /
+
+2023-06-30 22:23:12 7e737184-c776-4d33-a3a6-8324a8667f04 Error: Not allowed by CORS GET /
+
+2023-06-30 22:26:04 1521815a-b818-4377-8205-614b168542fd Error: Not allowed by CORS GET /
+
+2023-06-30 22:27:00 0bb7672a-9a7b-4a78-83e8-f672b8df4dbd Error: Not allowed by CORS GET /
+
+2023-06-30 22:27:32 d83131e4-4a1e-41b1-95ca-2e702800b952 Error: Not allowed by CORS GET /
+
+2023-07-16 21:57:55 d7b19940-fa14-4677-a962-0d5fbe48814d ReferenceError: jwt is not defined POST /api/auth/login localhost
+
+2023-07-16 22:02:31 bbbdd72c-b965-4957-b538-ded45421ca90 ReferenceError: jwt is not defined POST /api/auth/login localhost
+
+2023-07-16 22:03:23 f4070e0c-d64d-4640-a75c-b3dd6aea34cf ReferenceError: jwt is not defined POST /api/auth/login localhost
+
+2023-07-16 22:04:46 1710c139-5e05-48c7-9b04-312cca0641a5 ReferenceError: jwt is not defined POST /api/auth/login localhost
+
+2023-07-16 22:05:50 bda276aa-943a-4b67-a3c5-136579d7e7db ReferenceError: jwt is not defined POST /api/auth/login localhost
+
+2023-07-16 22:08:28 1c86bf33-da19-4a8b-9922-7bf7033e69e6 ReferenceError: token is not defined POST /api/auth/login localhost
+
+2023-07-16 22:38:26 b65dbd3c-866d-4ebe-a22a-04ed67601fe5 ReferenceError: email is not defined POST /api/user localhost
+
+2023-07-16 22:39:11 1e67019c-4cd6-4bd3-96b6-65339f19f04a ReferenceError: email is not defined POST /api/user localhost
+
+2023-07-16 22:39:38 8b3197e8-1d9f-414a-83d2-e5045a96b1e3 ReferenceError: email is not defined POST /api/user localhost
+
+2023-07-16 23:33:27 b6b1265e-8e00-4ccf-8d9d-dd5f19f15a49 TypeError: Cannot destructure property 'role' of 'req.user' as it is undefined. DELETE /api/user/64b38318801b720a44cff515 localhost
+
